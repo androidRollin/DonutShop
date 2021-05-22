@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DonutShop", "DonutShop\DonutShop.csproj", "{CC435928-DA8A-4A3C-A23D-B6E2C08EA202}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC435928-DA8A-4A3C-A23D-B6E2C08EA202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC435928-DA8A-4A3C-A23D-B6E2C08EA202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC435928-DA8A-4A3C-A23D-B6E2C08EA202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC435928-DA8A-4A3C-A23D-B6E2C08EA202}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A08A6B5B-90E9-4B68-AD4E-E5A92C4EC46C}
+	EndGlobalSection
+EndGlobal
