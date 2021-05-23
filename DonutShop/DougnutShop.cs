@@ -7,7 +7,8 @@ namespace DoughnutShop
         public static double totalCost = 0;
         static void Main(string[] args)
         {
-            //Git trial in commit (testing)
+            //Git trial in commit (testing) 
+            //Git tiral in commit (2)
             bool isRestart = true;
             char ans = 'Y';
             int numTransaction = 0;
