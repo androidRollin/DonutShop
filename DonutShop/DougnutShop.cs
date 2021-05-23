@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DonutShop
+namespace DoughnutShop
 {
     public class DoughnutShop
     {
@@ -21,16 +21,20 @@ namespace DonutShop
                 ans = Console.ReadLine()[0];
                 if (ans == 'N' || ans == 'n')
                 {
-                    Console.WriteLine("Please pay the said amount to the Cashier, thanks");
+                    Console.Clear();
+                    Console.WriteLine("Please pay Php {0} to the Cashier, thanks", totalCost);
+                    Console.WriteLine("Thank you for ordering");
+                    Console.ReadLine();
                     break;
                 }
                 numTransaction++;
                 Console.Clear();
+                if (ans != 'y' || ans != 'Y')
+                {
+                    Console.WriteLine("You inputted an invalid key, please try again");
+                }
 
             }
-
-
-
         }
 
         public static void askAddOrderConfirmation(double singleDonutPrice)
@@ -77,7 +81,8 @@ namespace DonutShop
 
         public static void PrintChoices()
         {
-            Console.WriteLine("DougnutMasarap");
+            Console.WriteLine("Doughnut Shop");
+            Console.WriteLine("Select an Order of Dozen:\n");
             Console.WriteLine("[1] Plain Doughnut \n" +
                               "[2] Plain Choco \n" +
                               "[3] Plain Strawberry \n" +
